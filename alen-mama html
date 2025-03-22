@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            color: #333;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #0077b6;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border: 5px solid #0077b6;
+            border-radius: 50%;
+            margin: 15px 0;
+            transition: 0.3s;
+        }
+        .profile-pic:hover {
+            transform: scale(1.1);
+            border-color: #ff6b6b;
+        }
+        h4 {
+            color: #d62828;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        span {
+            color: #000;
+            font-weight: bold;
+        }
+        p {
+            color: #000;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            color: #0077b6;
+            margin: 8px 0;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        strong {
+            color: #ff6b6b;
+        }
+        .btn {
+            text-decoration: none;
+            color: #fff;
+            background: linear-gradient(to right, #0077b6, #00aaff);
+            padding: 12px 30px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .btn:hover {
+            background: linear-gradient(to right, #005a8c, #0088cc);
+            transform: scale(1.1);
+        }
+        ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+}
+body {
+    background: url('https://lh3.googleusercontent.com/a/ACg8ocK76DG61dJU5rOEImDNoNzBf2sQqGyojq5_-d3hX8nzVAC75FITkq0I8qb4H2TNjt7ecuc9Bxaq3c2PKXjWSn5JC5fACQ=s576-c-no') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust transparency */
+    z-index: -1;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MY PROFILE</h1>
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocK76DG61dJU5rOEImDNoNzBf2sQqGyojq5_-d3hX8nzVAC75FITkq0I8qb4H2TNjt7ecuc9Bxaq3c2PKXjWSn5JC5fACQ=s576-c-no" 
+             alt="Profile Picture" class="profile-pic"><h4>NAME: <span>J-ALEN MORENO MAMA</span></h4>
+    
+    <h4>ABOUT ME:</h4>
+    <p>Hello! I'm Alen Mama, 19 years old, BSIS freshman college student and currently living in Lower Bayao, Tukuran.</p>
+
+    <h4>HOBBIES:</h4>
+    <p>I love playing online games like COD Mobile, Mobile Legends, Clash of Clans, and Chess. I also enjoy watching and reading anime and manhwa.</p>
+
+    <h4>ACHIEVEMENTS:</h4> 
+    <ul>
+       <li>Executive Officer of English and Filipino Club (2022-2024).</li>
+       <li>SSLG Grade 11 & 12 Representative (2022-2024).</li>
+       <li>District-Division-Regional Press Conference Qualifier (Feature Writing).</li>
+       <li>With <strong>High Honor</strong> in Grade 11-12 (Academic).</li>
+       <li>Literature Ambassador (2023).</li>
+    </ul>
+
+    <p>You can contact me on <strong>SMART/TNT</strong> at <strong>09709533497</strong>.</p>
+    <p>For more information about me, visit my Facebook account below.👇</p>
+    
+    <a href="https://www.facebook.com/share/12F79c2hvZg/" target="_blank" class="btn">My Facebook Account</a>
+</div>
+
+</body>
+</html>
